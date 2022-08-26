@@ -9,7 +9,7 @@ function Exercises({ exercises, setExercises, bodyPart }) {
   const paginate = (e, value) => {
     setCurrentPage(value);
     window.scrollTo({ top: 1800, behavior: "smooth" });
-  };
+  }; ///
   useEffect(() => {
     const fetchExercisesData = async () => {
       let exerciseData = [];
